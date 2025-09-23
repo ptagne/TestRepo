@@ -79,14 +79,26 @@ def update_pie_chart(selected_site, payload_range):
     ]
     
     if selected_site == 'ALL':
-        outcome_counts = filtered_df['class'].value_counts()
+        # Show success count per site for all 4 sites using groupby and value_counts
+        counts = spacex_df.groupby('Launch Site')['class'].value_counts().unstack(fill_value=0)
+        success_counts = counts[1] if 1 in counts.columns else pd.Series([0]*len(counts), index=counts.index)
+        
         fig = px.pie(
-            values=outcome_counts.values,
-            names=['Successful Launches', 'Failed Launches'],
-            title=f'Success Rate (Payload: {payload_range[0]} - {payload_range[1]} kg)',
-            color=['Successful Launches', 'Failed Launches'],
-            color_discrete_map={'Successful Launches': 'green', 'Failed Launches': 'red'}
+            values=success_counts.values,
+            names=success_counts.index,
+            title='Success Count Distribution Across 4 Launch Sites',
+            color=success_counts.index
         )
+
+
+        #outcome_counts = filtered_df['class'].value_counts()
+        #fig = px.pie(
+        #    values=outcome_counts.values,
+        #    names=['Successful Launches', 'Failed Launches'],
+        #    title=f'Success Rate (Payload: {payload_range[0]} - {payload_range[1]} kg)',
+        #    color=['Successful Launches', 'Failed Launches'],
+        #    color_discrete_map={'Successful Launches': 'green', 'Failed Launches': 'red'}
+        #)
         return fig
     else:
         # Filter by site and payload
