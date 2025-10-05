@@ -20,5 +20,5 @@ Business Impact
 Actionable Insights: Clear parameters for mission success optimization
 Cost-Benefit Justification: Model value exceeds implementation costs
 Scalability: Framework applicable to future rocket variants
-<img width="2477" height="693" alt="image" src="https://github.com/user-attachments/assets/4ae30e95-6639-41e3-8036-407bc52001e9" />
+
 
