@@ -5,12 +5,12 @@ The ability to reliably forecast first-stage landing success has profound implic
 <br>  
 <b>Executive Summary.</b>  <br>
 <br>
-A systematic CRISP-DM methodology was followed, implementing a comprehensive data science pipeline from multi-source data collection to optimized model deployment.
-Phase 1: Multi-Source Data Collection
-Phase 2: Data Wrangling & Feature Engineering
-Phase 3: Data Preprocessing
-Phase 4: Model Development & Optimization
-Phase 5: Model Evaluation & Selection
+A systematic CRISP-DM methodology was followed, implementing a comprehensive data science pipeline from multi-source data collection to optimized model deployment.<br>
+Phase 1: Multi-Source Data Collection<br>
+Phase 2: Data Wrangling & Feature Engineering<br>
+Phase 3: Data Preprocessing<br>
+Phase 4: Model Development & Optimization<br>
+Phase 5: Model Evaluation & Selection<br>
 Summary of all results:
 Technical Excellence
 High Accuracy: Exceeded 85% prediction threshold
