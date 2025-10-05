@@ -35,5 +35,13 @@ Scalability: Framework applicable to future rocket variants<br>
 
 <br><b>Conclusions:</b><br>
 
-<img width="1760" height="818" alt="image" src="https://github.com/user-attachments/assets/0eb2f24c-a069-4c6e-86c1-2016d2a60a7a" />
+Point 1) Data Collection Excellence: Successfully aggregated data from SpaceX API, secondary endpoints, and Wikipedia scraping.<br>
+Point 2) Modeling Success: Achieved exceptional prediction accuracy across multiple algorithms, Identified Decision Tree as the most effective predictor with more than 94% test accuracy, and leveraged GridSearchCV for systematic parameter tuning across all models.<br>
+Point 3) Technical Implementation: We used our knowledge to perform the analysis<br>
+Point 4) Immediate Practical Applications: Enable SpaceX to assess landing success probability before launch commitments, inform booster recovery strategy decisions, provide quantitative metrics for mission success likelihood, and support decisions on booster refurbishment vs. new construction.<br>
+Point 5) Limitations and Future Work: <br>
+Data Scope was limited to historical launches data; real-time operational factors not included. Feature Availability is dependent on publicly accessible parameters, and temporal Factors like Weather conditions and real-time anomalies not incorporated in our analysis.
+Advanced Features such as Integrated real-time weather data, mechanical sensor readings, model sophistication like exploring ensemble methods, neural networks, time-series analysis, and operational integration such like developping API for real-time prediction during mission planning will be great.<br>
+
+
 
