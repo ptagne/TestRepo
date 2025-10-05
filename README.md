@@ -33,3 +33,6 @@ Scalability: Framework applicable to future rocket variants<br>
 
 <img width="1267" height="670" alt="image" src="https://github.com/user-attachments/assets/18811f35-9665-424a-b908-318b47e2cfc5" />
 
+<br><b>Conclusions:</b><br>
+
+
