@@ -11,7 +11,7 @@ Phase 2: Data Wrangling & Feature Engineering<br>
 Phase 3: Data Preprocessing<br>
 Phase 4: Model Development & Optimization<br>
 Phase 5: Model Evaluation & Selection<br>
-Summary of all results:<br>
+<br>Summary of all results:<br>
 Technical Excellence<br>
 High Accuracy: Exceeded 85% prediction threshold
 Model Robustness: Consistent performance across validation sets
