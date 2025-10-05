@@ -16,9 +16,9 @@ Phase 5: Model Evaluation & Selection<br>
 High Accuracy: Exceeded 85% prediction threshold<br>
 Model Robustness: Consistent performance across validation sets<br>
 Feature Significance: Statistically significant predictor identification<br>
-Business Impact
-Actionable Insights: Clear parameters for mission success optimization
-Cost-Benefit Justification: Model value exceeds implementation costs
-Scalability: Framework applicable to future rocket variants
+<br>Business Impact
+Actionable Insights: Clear parameters for mission success optimization<br>
+Cost-Benefit Justification: Model value exceeds implementation costs<br>
+Scalability: Framework applicable to future rocket variants<br>
 
 
