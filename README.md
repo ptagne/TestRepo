@@ -27,3 +27,4 @@ Scalability: Framework applicable to future rocket variants<br>
 
         ##  Confusion Matrix
 
+<img width="760" height="595" alt="image" src="https://github.com/user-attachments/assets/bd9b794e-5512-4be2-a0a7-88ca5f9ac5a9" />
